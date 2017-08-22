@@ -135,6 +135,8 @@ public class CreatePostActivity extends AppCompatActivity {
                             Toast.makeText(CreatePostActivity.this,
                                     "Error: could not fetch user.",
                                     Toast.LENGTH_SHORT).show();
+
+                            System.out.println("success");
                         } else{
 
                             //write new post

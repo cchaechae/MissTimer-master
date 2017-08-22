@@ -137,7 +137,7 @@ public class CreatePostActivity extends AppCompatActivity {
                                     Toast.LENGTH_SHORT).show();
 
                             System.out.println("success");
-                        } else{
+                        } else {
 
                             //write new post
                             writeNewPost(userId, user.getUsername(), name, caption, imageUrl);
@@ -145,6 +145,8 @@ public class CreatePostActivity extends AppCompatActivity {
 
                         setEditingEnabled(true);
                         finish();
+
+
                     }
 
                     @Override
